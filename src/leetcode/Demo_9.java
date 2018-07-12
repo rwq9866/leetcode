@@ -11,12 +11,12 @@ import java.util.List;
  */
 public class Demo_9 {
 	
-	// 将整数转换为字符串
+	// 第一种方法 将整数转换为字符串
 	public boolean isPalindrome(int x) {
 		return String.valueOf(x).equals(new StringBuilder(String.valueOf(x)).reverse().toString());
 	}
 	
-	// 不转换 的 情况下解决
+	// 第二种方法 不转换 的 情况下解决
 	public boolean isPalindrome2(int x) {
 		int n = x;
 		int m = 0;
